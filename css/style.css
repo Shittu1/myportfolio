@@ -42,7 +42,7 @@ div#myimageTextRow {
 div.textAboutMe {
   font-size: 18px; 
   letter-spacing: 1px;
-  line-height: 35px
+  line-height: 35px;
   text-align: justify;
 }
 
@@ -54,6 +54,10 @@ div.section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+div#myimageTextRow.row {
+    margin-top: 60px;
 }
 
 /*---------- Skills and Project Headings ---------------*/
@@ -166,3 +170,10 @@ div ul.pagelinks a:hover {
     color: #fff;
 }
 
+
+@media only screen and (max-width: 760px) {
+    div.col-md-5 {
+        margin-bottom: 20px;
+    }
+
+}
